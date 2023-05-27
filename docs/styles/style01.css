@@ -107,7 +107,8 @@ main h1 {
 }
 
 .card-image {
-  max-height: 150px
+  max-height: 150px;
+  float: right;
 }
 
 @media (min-width: 600px) {
@@ -131,5 +132,15 @@ main h1 {
   .container {
     max-width: 1100px;
     margin: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-link {
+    flex-direction: column;
+  }
+
+  .card-image-container {
+    margin-top: 20px;
   }
 }
