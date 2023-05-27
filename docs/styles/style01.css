@@ -73,7 +73,14 @@ main h1 {
   border-radius: 20px;
   transition: box-shadow 0.4s;
   text-align: left;
+  align-items: center;
 
+}
+
+.card-link {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
 }
 
 .cards .cards-inner:hover {
@@ -95,10 +102,12 @@ main h1 {
   flex: 1;
 }
 
-.card-image {
-  width: 75px;
+.card-image-container {
   margin-left: 20px;
-  position: right;
+}
+
+.card-image {
+  max-height: 150px
 }
 
 @media (min-width: 600px) {
