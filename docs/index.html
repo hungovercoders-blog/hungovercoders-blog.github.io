@@ -70,32 +70,73 @@
     </div>
   </header>
   <main>
+  
+
+
+
+ 
+    <ul style="list-style-type: none; padding-left: 0;">
     <div class="cards">
+
+        <li>
       <div class="cards-inner">
-        <a href="/datagriff" class="card-link">
-          <div class="card-content">
-            <h2>Visit Hungovercoder dataGriff</h2>
-            <p>Immerse yourself in a vast array of topics, spanning from Python and OKRs to Spark, Databricks, Google Analytics, Google Tag Manager, Terraform, Azure, FastAPI, Containers, React, and Beyond!</p>
+        <div>
+          <a href="/datagriff" class="card-link">
+            <h2>Visit dataGriff Blog</h2>
+            <div class="card-image-container">
+              <img alt="dataGriff" src="assets/datagriff.png" class="card-image">
+            </div>
+          </a>
+          <button class="collapsible">Read More</button>
+          <div class="content">
+            <p>Posts from Richard Griffiths otherwise known as the visionary dataGriff! Immerse yourself in a vast array of topics, spanning from Python and OKRs to Spark and Databricks, Google
+              Analytics, Google Tag Manager, Terraform, Azure, FastAPI, Containers, React, and Beyond!</p>
           </div>
-          <div class="card-image-container">
-            <img alt="dataGriff" src="assets/datagriff.png" class="card-image">
-          </div>
-        </a>
+        </div>
+
+      
       </div>
+    </li>
+    <li>
       <div class="cards-inner">
-        <a href="/ak47" class="card-link">
-          <div class="card-content">
-            <h2>Visit Hungovercoder ak47</h2>
-            <p>Keep up with all the technical insights from Anil Kerai, the rebel known as <b>ak47!</b></p>
+        <div>
+          <a href="/datagriff" class="card-link">
+            <h2>Visit ak47 Blog</h2>
+            <div class="card-image-container">
+              <!-- <img alt="dataGriff" src="assets/datagriff.png" class="card-image"> -->
+            </div>
+          </a>
+          <button class="collapsible">Read More</button>
+          <div class="content">
+            <p>Posts from Anil Kerai otherwise known as the rebel ak47!</p>
           </div>
-          <div class="card-image-container">
-            <!-- <img alt="dataGriff" src="assets/datagriff.png" class="card-image"> -->
-          </div>
-        </a>
+        </div>
+
+  
       </div>
+    </li>
+
     </div>
+  </ul>
   </main>
 
 </body>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
 
 </html>

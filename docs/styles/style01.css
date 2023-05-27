@@ -58,14 +58,13 @@ main h1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  padding: 0 30px 50px;
+  padding: 0 10px 10px;
 }
 
 .cards .cards-inner {
   display: flex;
-  background-color: #d1d2d3;
+  /* background-color: #ececec;  */
   padding: 20px;
-  border-radius: 20px;
   transition: box-shadow 0.4s;
   text-align: left;
   align-items: center;
@@ -74,13 +73,27 @@ main h1 {
 
 .card-link {
   display: flex;
+  background-color: #222636; 
   text-decoration: none;
+  text-align: center;
   color: inherit;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 300px;
+  min-height: 165px;
 }
 
-.cards .cards-inner:hover {
-  box-shadow: 0 5px 20px rgba(1, 45, 128, 0.5);
+.card-link h2{
+  color: #fff;
 }
+
+.cards .card-link:hover {
+  box-shadow: 0 5px 20px rgba(1, 45, 128, 0.5);
+} 
+
+/* .cards .cards-inner:hover {
+  box-shadow: 0 5px 20px rgba(1, 45, 128, 0.5);
+} */
 
 .cards .cards-inner div i {
   margin-right: 20px;
@@ -102,7 +115,7 @@ main h1 {
 }
 
 .card-image {
-  max-height: 150px;
+  max-height: 125px;
   float: right;
 }
 
@@ -114,6 +127,7 @@ main h1 {
 
   .cards {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
   }
 }
 
@@ -138,4 +152,32 @@ main h1 {
   .card-image-container {
     margin-top: 20px;
   }
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  width: 100%;
+  border-radius: 10px;
+  gap:10px;
+}
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.collapsible.active {
+  background-color: #ccc;
+}
+
+.collapsible.active + .content {
+  display: block;
 }
