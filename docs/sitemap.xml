@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.hungovercoders.com/</loc>
+  <lastmod>2023-05-27T18:27:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/about/</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/05/14/pass-spark-exam.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/04/30/terraform-azure-data.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/04/14/local-install-spark.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/03/27/ga4-gtm-quickstart.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/03/11/cookie-consent.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/02/27/data-layer.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/02/20/track-your-beer-with-a-tag.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/01/21/docker-clean.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2023/01/02/docker-environment-variables.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/12/21/react-basic.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/11/27/fastapi-gen.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/11/12/docker-beer.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/11/06/fast-api.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/10/22/get-by-with-git.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/10/02/beautiful-soup.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/09/25/flask-api.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/09/17/team-okr-hdd.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.hungovercoders.com/datagriff/2022/07/19/environment-variables.html</loc>
+  <lastmod>2023-05-20T16:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
